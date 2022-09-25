@@ -4,6 +4,7 @@ import HOME from "./pages/home"
 import VIEW from "./pages/view"
 import LOGIN from "./pages/login"
 import SIGNUP from "./pages/signup"
+import { Home } from "@mui/icons-material"
 
 function App() {
   let Component
@@ -27,9 +28,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Component />
+      <main />
+      <home />
+      {Component}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
