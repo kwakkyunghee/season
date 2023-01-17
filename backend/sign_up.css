@@ -1,0 +1,79 @@
+#sign_up{
+    margin-left: 490px;
+    margin-top: 130px;
+}
+#signup_name{
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+#a{
+    margin-left: -70px;
+    
+}
+#b{
+    border-right: 1px solid #000;
+}
+
+#id{
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 120px;
+}
+@media (max-width: 600px) {
+    #id {
+      margin-left: -100px;
+    }
+}
+#pass{
+    margin-top: 15px;
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+}
+@media (max-width: 600px) {
+    #pass {
+      margin-left: -100px;
+    }
+}
+#name{
+    margin-top: 15px;
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 90px;
+}
+@media (max-width: 600px) {
+    #name {
+      margin-left: -100px;
+    }
+}
+#email{
+    margin-top: 15px;
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 90px;
+}
+@media (max-width: 600px) {
+    #email {
+      margin-left: -100px;
+    }
+}
+
+
+
+#signup_btn{
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
