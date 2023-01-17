@@ -1,0 +1,56 @@
+#login{
+    margin-top: 150px;
+    margin-left: 490px;
+}
+
+@media (max-width: 600px) {
+    #login {
+      margin-left: 200px;
+    }
+}
+#login_name{
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+    #name {
+      margin-left: -10px;
+    }
+}
+#id{
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+@media (max-width: 600px) {
+    #id {
+      margin-left: -100px;
+    }
+}
+#pass{
+    margin-top: 15px;
+    background: #D9D9D9;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+@media (max-width: 600px) {
+    #pass {
+      margin-left: -100px;
+    }
+}
+
+#login_btn{
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+@media (max-width: 600px) {
+    #login_btn {
+      margin-left: -20px;
+    }
+}
