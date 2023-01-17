@@ -1,10 +1,10 @@
 import Navbar from "./Navbar"
 import MAIN from "./pages/main"
 import HOME from "./pages/home"
-import VIEW from "./pages/view"
+import VIEW from "./pages/View"
 import LOGIN from "./pages/login"
 import SIGNUP from "./pages/signup"
-import { Home } from "@mui/icons-material"
+import Footer from "./Footer"
 
 function App() {
   let Component
@@ -15,7 +15,7 @@ function App() {
     case "/home":
       Component = <HOME/>
       break
-    case "/view":
+    case "/View":
       Component = <VIEW/>
       break
     case "/login":
@@ -26,12 +26,17 @@ function App() {
       break
   }
   return (
-    <>
+    <div className="page-container">
+    <div className="content-wrap">
+
       <Navbar />
       <main />
       <home />
       {Component}
-    </>
+      </div>
+      <Footer />
+      
+      </div>
   );
 };
 
