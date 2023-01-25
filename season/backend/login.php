@@ -1,8 +1,9 @@
 <?php
+include("./conn.php");
+
 $uid=$_POST['uid'];
 $upass=$_POST['upass'];
 
-include("./conn.php");
 
 //1mysql 접속
 
