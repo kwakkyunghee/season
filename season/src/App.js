@@ -38,6 +38,11 @@ function App() {
       
       </div>
   );
+  return (
+    <div>
+      <LOGIN/>
+    </div>
+  )
 };
 
 export default App;

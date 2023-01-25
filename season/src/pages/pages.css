@@ -17,6 +17,33 @@ body {
     justify-content:space-between;
 }
 
+.login-name{
+    font-size:large;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight:1000;
+    margin-top: 10rem;
+    margin-bottom: 13rem;
+}
+
+.id-name{
+    margin-top: 3.5rem;
+}
+
+.input_id{
+    background-color: #D9D9D9;
+}
+
+.pw-name{
+    margin-top: 1.5rem;
+}
+
+.login-button{
+    margin-top: 1.5rem;
+}
+
+
 /* .container {
     width: 80%;
     margin: auto;
