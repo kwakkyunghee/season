@@ -17,11 +17,12 @@ else for($i=0; $i<$n; $i++){
     }
 }
 if($upass==null) echo "<script>alert('비밀번호를 입력해주세요.');history.go(-1);</script>";
-if($uname==null) echo "<script>alert('이름을 입력해주세요.');history.go(-1);</script>";
+else if($uname==null) echo "<script>alert('이름을 입력해주세요.');history.go(-1);</script>";
+else if($umail==null) echo "<script>alert('메일을 입력해주세요.');history.go(-1);</script>";
 //이메일도 필수항목으로 해야하나?
 
 else{
-    $sql="insert into season_member(id, pass, name, email) value('$uid', '$upass', '$uname');";
+    $sql="insert into season_member(id, password, name, email) value('$uid', '$upass', '$uname','$umail');";
     mysqli_query($conn, $sql);
     echo "<script>alert('회원가입되었습니다.'); history.go(-1);</script>";
 }
