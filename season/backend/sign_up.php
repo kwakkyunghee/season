@@ -10,7 +10,7 @@ $sel = mysqli_query($conn, $sql);
 $n=mysqli_num_rows($sel);
 
 
-if($uid==null) echo "<script>alert('아이디를 입력하세요.'); history.go(-1);</script>";//아이디를 입력하지 않았을 때
+if($uid==null) echo "<script>alert('아이디를 입력해주세요.'); history.go(-1);</script>";//아이디를 입력하지 않았을 때
 else for($i=0; $i<$n; $i++){
     $re=mysqli_fetch_row($sel); 
     if((string)$re[0]==$uid){
